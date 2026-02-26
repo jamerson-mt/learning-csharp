@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/image_0.png" alt="C# 14 Fundamentals Banner" width="100%">
+</p>
+
 # Learning C# 🚀
 
 This repository contains my personal journey through **C# 14** and **.NET 10**. Here, I document my progress in software engineering fundamentals, focusing on clean code, modern syntax, and logic exercises.
