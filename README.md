@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/image_0.png" alt="C# 14 Fundamentals Banner" width="100%">
+  <img src="./assets/banner.png" alt="C# 14 Fundamentals Banner" width="100%">
 </p>
 
 # Learning C# 🚀
