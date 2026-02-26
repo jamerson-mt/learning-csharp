@@ -22,6 +22,7 @@ This folder contains isolated exercises to master the core language syntax.
 * `06-if-else-statements.cs`: Decision-making flow and conditional logic.
 * `07-loops-basics.cs`: Iteration structures (for, while, foreach).
 * `08-comparison-logic.cs`: Boolean logic and data comparison.
+* `09-ternary-operator.cs`: Using the ternary conditional operator for concise logic
 
 ### 🛠️ 02 - Activities
 
