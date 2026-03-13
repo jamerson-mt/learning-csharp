@@ -15,7 +15,9 @@ The project is divided into two main sections: theory-focused fundamentals and p
 This folder contains isolated exercises to master the core language syntax.
 
 * `01-hello-world.cs`: Introduction to Top-Level Statements.
+* `01.1-formatting-text.cs`: Formatting strings and output.
 * `02-variables-types.cs`: Exploration of primitive types and strong typing.
+* `02.1-variables-types.cs`: Advanced variable declarations and type inference with `var`.
 * `03-statements-expressions.cs`: Logic structures and C# expressions.
 * `04-input-user.cs`: Capturing and handling user input from the console.
 * `05-operators.cs`: Arithmetic operations and operator precedence.
@@ -29,6 +31,7 @@ This folder contains isolated exercises to master the core language syntax.
 Practical challenges where I combine multiple fundamentals to solve real-world problems.
 
 * **01-budget-validator.cs**: A project budget calculator that uses `double.TryParse` for safety, arithmetic operators for cost calculation, and complex `if-else` chains to determine financial feasibility.
+* **02-text-formating.cs**: A text formatting tool that demonstrates string manipulation, interpolation, and conditional logic to format user input dynamically.
 
 ---
 
