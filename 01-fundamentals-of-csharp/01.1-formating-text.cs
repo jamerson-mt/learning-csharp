@@ -1,4 +1,3 @@
-
 Console.Write("Hello\tWorld!"); // vai criar uma guia (um espaco como se fosse dada uma tabulacao)
 Console.WriteLine("");
 Console.Write("Hello\nWorld"); // Quebra a linha, e a continuidade vai pra baixo
@@ -13,3 +12,7 @@ Console.WriteLine(
 // Kon'nichiwa World
 Console.WriteLine("\u3053\u3093\u306B\u3061\u306F World!"); // caracteres UniCode
 
+string cVariable = "Jamerson ipseum lorem ten";
+Console.WriteLine("Aqui podemos concatenar texto com uma variavel:" + cVariable); // a concatenacao junta somente em uma string
+ 
+Console.WriteLine($"Aqui podemos realizar a interpolacao de variaveis com o ($) > {cVariable}"); //interpolacao sintaxe ate mais simples
