@@ -14,5 +14,7 @@ Console.WriteLine("\u3053\u3093\u306B\u3061\u306F World!"); // caracteres UniCod
 
 string cVariable = "Jamerson ipseum lorem ten";
 Console.WriteLine("Aqui podemos concatenar texto com uma variavel:" + cVariable); // a concatenacao junta somente em uma string
- 
+
 Console.WriteLine($"Aqui podemos realizar a interpolacao de variaveis com o ($) > {cVariable}"); //interpolacao sintaxe ate mais simples
+
+Console.WriteLine($@"Podemos usar tbm a interpolacao juntamente do verbatim //\\\ \ \ /// \/ \n {cVariable}");
