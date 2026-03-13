@@ -17,4 +17,6 @@ Console.WriteLine("Aqui podemos concatenar texto com uma variavel:" + cVariable)
 
 Console.WriteLine($"Aqui podemos realizar a interpolacao de variaveis com o ($) > {cVariable}"); //interpolacao sintaxe ate mais simples
 
-Console.WriteLine($@"Podemos usar tbm a interpolacao juntamente do verbatim //\\\ \ \ /// \/ \n {cVariable}");
+Console.WriteLine(
+    $@"Podemos usar tbm a interpolacao juntamente do verbatim //\\\ \ \ /// \/ \n {cVariable}"
+);
