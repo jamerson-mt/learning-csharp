@@ -3,4 +3,4 @@
     * Estou utilizando a nova atualização que me permite escrever código mais limpo e direto, sem a necessidade de declarar uma classe ou método principal.
 */
 
-Console.WriteLine("Hello, Big and beautifull World!"); 
+Console.WriteLine("Hello, Big and beautifull World!");
