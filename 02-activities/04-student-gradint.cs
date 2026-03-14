@@ -1,26 +1,29 @@
 //VARIABLES
 var students = new List<string>();
-var points = new List<double>();
-string name;
+var studentsAverage = new List<double>();
 
 // inicialization students name and points
 Console.WriteLine("Quantos alunos?");
 if (int.TryParse(Console.ReadLine(), out int q))
 {
-    while (q > 0)
+    for (int i = 0; i < q; i++)
     {
         //INSERTION STUDENT
         Console.WriteLine("Insira o nome do aluno:");
-        name = Console.ReadLine() ?? ""; // null-coalescing operator to handle null input
+        string name = Console.ReadLine() ?? ""; // null-coalescing operator to handle null input
         students.Add(name);
         //INSERTION STUDENT POINT
+        double soma = 0;
+        var points = new List<double>();
+
         for (int qNota = 0; qNota < 5; qNota++)
         {
             // INSERCAO DAS 5 NOTAS DO ESTUDANTE
-            Console.WriteLine($"Insira a nota {qNota+1} de {students[q - q]}");
+            Console.WriteLine($"Insira a nota {qNota + 1} de {students[i]}");
             if (double.TryParse(Console.ReadLine(), out double nota))
             {
                 points.Add(nota);
+                soma += nota;
             }
             else
             {
@@ -30,11 +33,12 @@ if (int.TryParse(Console.ReadLine(), out int q))
                 points.Add(nota);
             }
         }
-        Console.WriteLine($"Aluno: {students[q - q]}");
+        studentsAverage.Add(soma / 5);
+        Console.WriteLine($"Aluno: {students[i]}");
         foreach (var p in points)
         {
             Console.WriteLine($"Nota: {p}");
         }
-        q--; //decremento a quantidade para quando inserir todos studantes encerrar
+        Console.WriteLine($"A nota media de {students[i]}: {studentsAverage[i]}");
     }
 }
